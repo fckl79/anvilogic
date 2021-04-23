@@ -38,5 +38,7 @@ cls = GensimDoc2Vec("c:\\Users\\Igor\\Projects\\anvilogic\\test\\model_config.js
                         "gensim_doc2vec")
 
 cls.load()
+
 sims1 = cls.predict("Base64 encoded HTTP request")
+
 print(sims1)
