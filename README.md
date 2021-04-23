@@ -1,4 +1,4 @@
-#### 1. Config File - model_congfig.json
+#### 1. Config File - model_config.json
 * tag = "gensim_doc2vec" - name of model
  -- model parameters in corresponding dictionary
 
