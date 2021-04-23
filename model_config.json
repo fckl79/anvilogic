@@ -1,0 +1,14 @@
+{
+    "gensim_doc2vec": {
+	"n_grams": 1,
+	"train_data": "c:\\Users\\Igor\\Projects\\anvilogic\\test\\model_data.json",
+	"min_count": 3,
+	"vector_size": 300,
+	"epochs": 40,
+	"window": 3,
+	"model_file": "c:\\Users\\Igor\\Projects\\anvilogic\\test\\gensim_doc2vec.model",
+	"corpus_file": "c:\\Users\\Igor\\Projects\\anvilogic\\test\\gensim_doc2vec.corpus",
+	"matrix_file": "c:\\Users\\Igor\\Projects\\anvilogic\\test\\gensim_doc2vec_matrix.csv"
+  }
+    
+}
