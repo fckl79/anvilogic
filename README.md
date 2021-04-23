@@ -10,10 +10,10 @@ Parameters
 * matrix_file - _valid_ path of file containing matrix of unit vectors related MITRE Att@ck documents
 
 * Other Parameters - related to gensim.Doc2Vec model parameters
-  -- n_grams
-  -- min_count
-  -- window
-  -- epochs
+   * n_grams
+   * min_count
+   * window
+   * epochs
 
 #### 2. How to Get Training Data - Scraping MITRE Att@ck site
 _data_scraper.groups_scraper.save_data("C:\\Users\\Igor\\Projects\\anvilogic\\test\\model_data.json")_
