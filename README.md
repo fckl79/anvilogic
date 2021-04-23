@@ -21,7 +21,7 @@ _data_scraper.groups_scraper.save_data("C:\\Users\\Igor\\Projects\\anvilogic\\te
 does it all. Parameter here is the same path as in config file for _train_data_ key.
 
 #### 3. How to Train and Save the Model
-In train_mode/train_model/gensim_doc2vec.py run
+In train_model/gensim_doc2vec.py run
 
 cls = GensimDoc2Vec("c:\\Users\\Igor\\Projects\\anvilogic\\test\\model_config.json",
                         "gensim_doc2vec")
@@ -33,7 +33,7 @@ cls.save()
 It will save model and matrix file to corresponding locations in config file
 
 #### 4. How to Run the Model
-In train_mode/train_model/gensim_doc2vec.py run
+In train_model/gensim_doc2vec.py run
 
 cls = GensimDoc2Vec("c:\\Users\\Igor\\Projects\\anvilogic\\test\\model_config.json",
                         "gensim_doc2vec")
