@@ -22,6 +22,7 @@ does it all. Parameter here is the same path as in config file for _train_data_ 
 
 #### 3. How to Train and Save the Model
 In train_mode/train_model/gensim_doc2vec.py run
+
 cls = GensimDoc2Vec("c:\\Users\\Igor\\Projects\\anvilogic\\test\\model_config.json",
                         "gensim_doc2vec")
 
